@@ -60,7 +60,7 @@ ans = httpReq.text
 ##### Quelles techniques experimentales mesurent les interactions rapportées dans cette publication?
 
 ```
-
+Two hybrid array
 ```
 
 #### Extraction des deux sous-jeux d'interactions
@@ -113,12 +113,14 @@ print(f"Nombre total d'interactions {total}, EBV-EBV {len(EBV_EBV_mitab)}")
 
 ##### Que fait la fonction `mitabReader` ?
 ```
+Vérifie qu'il y ait des identifiants Uniprot
 ```
 
 ##### Après avoir réparé ce code veuillez
 - Extraire les lignes MITAB impliquant uniquement des protéines d'EBV, quel est leur nombre ?
 - Extraire les lignes MITAB impliquant des protéines humaines et des protéines d'EBV, quel est leur nombre ?
 ```
+48 chez EBV-EBV, 129 chez EBV-Human
 ```
 
 ##### Combien de protéines humaines et virales sont respectivement dans les jeux d'interactions EBV-Human et EBV-EBV ?
